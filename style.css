@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0px;
+    color: white;
+    font-size: 14px;
+
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(0, 0%, 8%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: fit-content;
+    width: 300px;
+    padding: 20px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 20px;
+}
+
+.img > img {
+    width: 70px;
+}
+
+.my-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+#name{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#location{
+    font-weight: 500;
+    color: #b3ea11;
+}
+
+#position{
+    font-weight: 600;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 250px;
+
+}
+
+.links > button {
+    background-color: hsl(0, 0%, 20%);
+    padding: 13px 0px;
+    border: none;
+    border-radius: 5px;
+    /* width: 100%; */
+    cursor: pointer;
+}
+
+a{
+    font-weight: 600;
+    text-decoration:none;
+}
+
+button:hover{
+    background-color: #b3ea11;
+    color: black;
+}
